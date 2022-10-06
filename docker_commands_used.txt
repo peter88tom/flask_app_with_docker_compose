@@ -1,0 +1,4 @@
+Docker command used after writing Dockerfile and docker-compose file
+
+All this commands assumes that you're inside the directory where the "Dockerfile" is located
+1.>
