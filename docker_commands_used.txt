@@ -1,4 +1,23 @@
 Docker command used after writing Dockerfile and docker-compose file
 
 All this commands assumes that you're inside the directory where the "Dockerfile" is located
-1.>
+1.>docker compose up
+  - This command build and run the app with compose
+2.> docker compose down
+   - This command brings down everything.. removes the container
+3.> docker compose down --volumes
+    - This command removes the volumes
+4.> docker image ls
+    - This command list all local images
+5.> docker inspect <tag or id>
+    - This command inspects the images
+6.> docker compose up -d(detach)
+    - This command run your services in the background
+7.>docker compose ps
+    - This command tell you what is running on the background
+
+8.>docker compose run web env
+   - This command let  you see the environment variables are available to a web service
+
+9.>docker compose --help
+    - This command list all available commands
