@@ -25,3 +25,8 @@ def hello():
   return f"Hello from Docker I have been seen {count} times.\n"
 
 
+@app.route('/welcome')
+def welcome():
+  return "This is my welcome page"
+
+
